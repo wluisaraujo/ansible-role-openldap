@@ -26,7 +26,7 @@ install:
 
 
  # Install ansible-commons
- - ansible-galaxy install wluisaraujo.iac-ansible-common-server
+ - ansible-galaxy install wluisaraujo.iac-ansible-openldap
 
 script:
  # Basic role syntax check
