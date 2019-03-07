@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/wluisaraujo/iac-ansible-openldap.svg?branch=master)](https://travis-ci.org/wluisaraujo/iac-ansible-openldap)
 ---
-# IaC: with[Ansible](https://www.ansible) role to install and configure [OpenLdap](https://www.openldap.org/)
+# IaC: with [Ansible](https://www.ansible) role to install and configure [OpenLdap](https://www.openldap.org/)
 ------------
 
 Description
