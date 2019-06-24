@@ -1,4 +1,5 @@
 galaxy_info:
+  role_name: iac-ansible-openldap
   author: w.luis.araujo
   description: "Install OpenLdap"
   company: LUSAR | wluisaraujo.github.io
