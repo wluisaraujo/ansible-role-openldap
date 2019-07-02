@@ -1,5 +1,5 @@
 ---
-# handlers file for openldap-server
+# handlers file for openldap
 ## SystemD
 - name: Start {{ service_name }}
   systemd:

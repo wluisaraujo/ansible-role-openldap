@@ -13,7 +13,7 @@ services:
 
 env:
   global:
-    - ROLE_NAME: iac-ansible-openldap
+    - ROLE_NAME: openldap
     - ANSIBLE_ACTION_WARNINGS: "False"
     - ANSIBLE_COMMAND_WARNINGS: "False"
     - ANSIBLE_DEPRECATION_WARNINGS: "False"
@@ -47,7 +47,7 @@ install:
 
 
  # Install ansible-commons
- - ansible-galaxy install wluisaraujo.iac-ansible-openldap
+ - ansible-galaxy install wluisaraujo.openldap
 
 script:
  # Basic role syntax check
@@ -57,4 +57,4 @@ script:
 
 notifications:
  webhooks: https://galaxy.ansible.com/api/v1/notifications/
----
+...

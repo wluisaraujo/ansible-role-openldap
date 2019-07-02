@@ -31,8 +31,8 @@ Example Playbook
   vars:
     - name: value
   roles:
-    - iac-ansible-openldap
-...    
+    - openldap
+...
 ```
 
 ----------------

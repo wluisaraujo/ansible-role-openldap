@@ -1,7 +1,7 @@
 galaxy_info:
-  role_name: iac-ansible-openldap
+  role_name: openldap
   author: w.luis.araujo
-  description: "Install OpenLdap"
+  description: "Infrastructure as Code (IaC) with Ansible role for Install OpenLdap"
   company: LUSAR | wluisaraujo.github.io
   license: "(GPLv3)"
   min_ansible_version: 2.0
@@ -12,5 +12,7 @@ galaxy_info:
   - name: Debian
     versions:
     - all
-  galaxy_tags: [openldap]
+  galaxy_tags: 
+    - openldap
+    - ldap-server
 dependencies: []
