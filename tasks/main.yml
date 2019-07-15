@@ -1,2 +1,9 @@
 ---
 # tasks file for openldap
+- name: "Install the openldap package"
+  package:
+    name: "{{ item }}"
+    state: present
+    update_cache: yes
+  loop:
+    - openldap
