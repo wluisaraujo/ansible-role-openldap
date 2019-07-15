@@ -8,10 +8,18 @@ galaxy_info:
   platforms:
   - name: EL
     versions:
-    - all
+    - 7
+  - name: Fedora
+    versions:
+    - 30
+    - 29	
   - name: Debian
     versions:
     - all
+  - name: Ubuntu
+    versions:
+    - bionic
+    - xenial
   galaxy_tags: 
     - openldap
     - ldap-server
