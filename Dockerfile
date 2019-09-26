@@ -5,6 +5,7 @@ FROM debian:latest
 MAINTAINER wluisaraujo
 
 RUN apt-get update
+RUN export DEBIAN_FRONTEND=noninteractive
 RUN apt-get install -y slapd ldap-utils
 
 #VOLUME [ "/path", "/path1" ]
