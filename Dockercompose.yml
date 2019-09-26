@@ -14,11 +14,12 @@ services:
       - 127.0.0.1
       - 8.8.8.8
     ports:
-      - "636/tcp:636/udp"
       - "389/tcp:389/tcp"
+      - "636/tcp:636/udp"
     expose:
-      - "53/udp"
-      - "53/tcp"
+      - "389/udp"
+      - "636/tcp"
     extra_hosts:
       - "ns1.dexter.com.br:172.16.238.10"  
+      - "ldap.dexter.com.br:172.16.238.10"  
 ...
