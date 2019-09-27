@@ -1,4 +1,4 @@
-[![Ansible Galaxy](https://img.shields.io/badge/Ansible%20Galaxy-OpenLdap-blue.svg)](https://galaxy.ansible.com/wluisaraujo/openldap) [![Build Status](https://travis-ci.org/wluisaraujo/ansible-role-openldap.svg?branch=master)](https://travis-ci.org/wluisaraujo/ansible-role-openldap)
+[![Ansible Galaxy](https://img.shields.io/badge/Ansible%20Galaxy-OpenLdap-blue.svg)](https://galaxy.ansible.com/wluisaraujo/openldap) [![Build Status](https://travis-ci.org/wluisaraujo/ansible-role-openldap.svg?branch=master)](https://travis-ci.org/wluisaraujo/ansible-role-openldap) [![Docker Pulls](https://img.shields.io/badge/docker%20pulls-99-blue)](https://hub.docker.com/r/wluisaraujo/openldap/)
 ---
 # IaC: with [Ansible](https://www.ansible.com) role to install and configure [OpenLdap](https://www.openldap.org/)
 ------------
