@@ -6,11 +6,12 @@ MAINTAINER wluisaraujo
 LABEL maintainer="wluisaraujo"
 
 RUN apt-get update
-RUN export DEBIAN_FRONTEND=noninteractive
-RUN apt-get install -y -d slapd ldap-utils
+RUN DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends slapd ldap-utils openssl
 
 #VOLUME [ "/path", "/path1" ]
 #CMD service slapd start
 
-EXPOSE 389/tcp 389/udp
-EXPOSE 636/tcp 636/udp
+EXPOSE 389/tcp 
+EXPOSE 389/udp
+EXPOSE 636/tcp 
+EXPOSE 636/udp
