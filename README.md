@@ -16,8 +16,12 @@ Requirements
 Installation
 ------------
 
+Installation
+------------
+
 ```console
 vagrant@localhost:~$ ansible-galaxy install wluisaraujo.openldap
+vagrant@localhost:~$ ansible-galaxy install -r wluisaraujo.openldap/requirements.txt
 ```
 
 Role Variables
